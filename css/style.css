@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+a, button {
+  transition: all .3s ease-in-out;
+}
+
+body {
+  color: #333333;
+  font-family:  sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.Kinds_of_coffee .container {
+  padding: 70px 20px;
+  background-color: #fdde7e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffe {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px 100px;
+  margin: 0 15px;
+}
+
+.coffe:hover {
+  transform: scale(1.1);
+  transition: all .5s ease-in-out;
+ }
+
+.price {
+  color: #02995b;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+}
+
+img {
+  margin-top: 45px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+p {
+  font-family: "Lato Light";
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
